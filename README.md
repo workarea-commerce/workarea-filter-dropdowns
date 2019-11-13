@@ -3,38 +3,6 @@ Workarea Filter Dropdowns
 
 Filter Dropdowns plugin for the Workarea Commerce platform.
 
-Getting Started
---------------------------------------------------------------------------------
-
-This gem contains a rails engine that must be mounted onto a host Rails application.
-
-You must have access to a WebLinc gems server to use this gem. Add your gems server credentials to Bundler:
-
-    bundle config gems.weblinc.com my_username:my_password
-
-Or set the appropriate environment variable in a shell startup file:
-
-    export BUNDLE_GEMS__WEBLINC__COM='my_username:my_password'
-
-Then add the gem to your application's Gemfile specifying the source:
-
-    # ...
-    gem 'workarea-filter_dropdowns', source: 'https://gems.weblinc.com'
-    # ...
-
-Or use a source block:
-
-    # ...
-    source 'https://gems.weblinc.com' do
-      gem 'workarea-filter_dropdowns'
-    end
-    # ...
-
-Update your application's bundle.
-
-    cd path/to/application
-    bundle
-
 Using Workarea Filter Dropdowns
 --------------------------------------------------------------------------------
 
@@ -51,11 +19,8 @@ Along with the `filtersAccordionOptions` preset configuration, there is a `filte
 Workarea Platform Documentation
 --------------------------------------------------------------------------------
 
-See [http://developer.weblinc.com](http://developer.weblinc.com) for Workarea platform documentation.
+See [https://developer.workarea.com](https://developer.workarea.com) for Workarea platform documentation.
 
 Copyright & Licensing
 --------------------------------------------------------------------------------
-
-Copyright WebLinc 2015. All rights reserved.
-
-For licensing, contact sales@workarea.com.
+Workarea Commerce Platform is released under the [Business Software License](https://github.com/workarea-commerce/workarea/blob/master/LICENSE)
