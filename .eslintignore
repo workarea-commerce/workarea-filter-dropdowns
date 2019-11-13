@@ -1,0 +1,4 @@
+admin/spec/javascripts/**/*.js
+storefront/spec/javascripts/**/*.js
+core/spec/javascripts/**/*.js
+*spec_helper.js

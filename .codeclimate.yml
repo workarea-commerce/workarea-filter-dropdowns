@@ -1,0 +1,28 @@
+---
+engines:
+  scss-lint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - "**.css"
+  - "**.js"
+  - "**.rb"
+exclude_paths:
+- "*/lib/**/engine.rb"
+- "*/assets/**/dependencies/**/*"
+- docs/**/*
+- testing/**/*
+- core/app/assets/javascripts/workarea/core/polyfills.js
+- "**/vendor/**/*"
