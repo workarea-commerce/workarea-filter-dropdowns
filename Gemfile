@@ -16,3 +16,4 @@ gemspec
 
 
 gem 'workarea', github: 'workarea-commerce/workarea'
+gem 'workarea-accordions', github: 'workarea-commerce/workarea-accordions'
