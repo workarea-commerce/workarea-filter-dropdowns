@@ -6,8 +6,8 @@ module Workarea
 
       initializer 'workarea.filter_dropdowns' do
         Plugin.append_javascripts(
-            'storefront.config',
-            'workarea/storefront/filter_dropdowns/config'
+          'storefront.config',
+          'workarea/storefront/filter_dropdowns/config'
         )
       end
 
